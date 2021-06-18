@@ -61,5 +61,11 @@
     <ClInclude Include="11_eleven.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="13_.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="12_.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
