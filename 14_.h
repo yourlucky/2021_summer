@@ -5,7 +5,7 @@
 
 using namespace std;
 
-int is_prime(int x);
+bool is_prime(int x);
 int make_number(int x);
 
 int fourteen()
@@ -29,7 +29,7 @@ int fourteen()
     return 0;
 }
 
-int is_prime(int x)
+bool is_prime(int x)
 {
     if (x == 1)
         return 0;

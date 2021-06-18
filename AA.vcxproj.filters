@@ -21,7 +21,7 @@
     <ClCompile Include="Source.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="9_nine.cpp">
+    <ClCompile Include="9_nine.h">
       <Filter>Header Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -68,6 +68,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="14_.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="15_.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

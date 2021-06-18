@@ -1,3 +1,2 @@
 ﻿  main.cpp
-C:\Users\yoonc\source\repos\AA\AA\14_.h(61,55): warning C4244: '+=': conversion from 'double' to 'int', possible loss of data
   AA.vcxproj -> C:\Users\yoonc\source\repos\AA\Debug\AA.exe
