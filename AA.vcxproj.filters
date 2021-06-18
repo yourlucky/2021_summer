@@ -58,5 +58,8 @@
     <ClInclude Include="10_ten.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="11_eleven.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

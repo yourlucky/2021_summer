@@ -148,6 +148,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="10_ten.h" />
+    <ClInclude Include="11_eleven.h" />
     <ClInclude Include="4_Four.h" />
     <ClInclude Include="1_One.h" />
     <ClInclude Include="3_Three.h" />
