@@ -152,6 +152,9 @@
     <ClInclude Include="12_.h" />
     <ClInclude Include="13_.h" />
     <ClInclude Include="14_.h" />
+    <ClInclude Include="16_.h" />
+    <ClInclude Include="17_.h" />
+    <ClInclude Include="18_.h" />
     <ClInclude Include="4_Four.h" />
     <ClInclude Include="1_One.h" />
     <ClInclude Include="3_Three.h" />

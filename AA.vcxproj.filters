@@ -73,5 +73,14 @@
     <ClInclude Include="15_.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="16_.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="17_.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="18_.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
