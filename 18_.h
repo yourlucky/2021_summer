@@ -46,5 +46,8 @@ void test(int x, int y)
             max = count;
     }
 
+    if (max == 0)
+        max = -1;
+
     cout << max << endl;
 }

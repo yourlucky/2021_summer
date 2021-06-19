@@ -82,5 +82,11 @@
     <ClInclude Include="18_.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="19_.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="20_.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
