@@ -91,5 +91,11 @@
     <ClInclude Include="21_.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="22_.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="23_.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
