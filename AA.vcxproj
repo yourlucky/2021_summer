@@ -160,6 +160,13 @@
     <ClInclude Include="21_.h" />
     <ClInclude Include="22_.h" />
     <ClInclude Include="23_.h" />
+    <ClInclude Include="24_.h" />
+    <ClInclude Include="25_.h" />
+    <ClInclude Include="26_.h" />
+    <ClInclude Include="27.h" />
+    <ClInclude Include="29_.h" />
+    <ClInclude Include="30_.h" />
+    <ClInclude Include="31_.h" />
     <ClInclude Include="4_Four.h" />
     <ClInclude Include="1_One.h" />
     <ClInclude Include="3_Three.h" />

@@ -97,5 +97,26 @@
     <ClInclude Include="23_.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="24_.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="25_.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="26_.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="27.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="29_.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="30_.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="31_.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
