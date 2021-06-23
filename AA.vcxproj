@@ -167,6 +167,13 @@
     <ClInclude Include="29_.h" />
     <ClInclude Include="30_.h" />
     <ClInclude Include="31_.h" />
+    <ClInclude Include="32_.h" />
+    <ClInclude Include="33_.h" />
+    <ClInclude Include="34_.h" />
+    <ClInclude Include="35_.h" />
+    <ClInclude Include="36_.h" />
+    <ClInclude Include="37_.h" />
+    <ClInclude Include="38_.h" />
     <ClInclude Include="4_Four.h" />
     <ClInclude Include="1_One.h" />
     <ClInclude Include="3_Three.h" />
