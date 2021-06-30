@@ -176,6 +176,7 @@
     <ClInclude Include="38_.h" />
     <ClInclude Include="39_.h" />
     <ClInclude Include="40_.h" />
+    <ClInclude Include="41_.h" />
     <ClInclude Include="4_Four.h" />
     <ClInclude Include="1_One.h" />
     <ClInclude Include="3_Three.h" />
@@ -185,6 +186,7 @@
     <ClInclude Include="7_Seven.h" />
     <ClInclude Include="8_eight.h" />
     <ClInclude Include="15_.h" />
+    <ClInclude Include="42_.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
