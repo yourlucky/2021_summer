@@ -141,7 +141,6 @@
   <ItemGroup>
     <ClCompile Include="9_nine.h" />
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="Source.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="Input_data.txt" />
@@ -163,7 +162,7 @@
     <ClInclude Include="24_.h" />
     <ClInclude Include="25_.h" />
     <ClInclude Include="26_.h" />
-    <ClInclude Include="27.h" />
+    <ClInclude Include="27_.h" />
     <ClInclude Include="29_.h" />
     <ClInclude Include="30_.h" />
     <ClInclude Include="31_.h" />
@@ -178,6 +177,12 @@
     <ClInclude Include="40_.h" />
     <ClInclude Include="41_.h" />
     <ClInclude Include="43_.h" />
+    <ClInclude Include="44_.h" />
+    <ClInclude Include="45_.h" />
+    <ClInclude Include="46_.h" />
+    <ClInclude Include="47_.h" />
+    <ClInclude Include="48_.h" />
+    <ClInclude Include="49_.h" />
     <ClInclude Include="4_Four.h" />
     <ClInclude Include="1_One.h" />
     <ClInclude Include="3_Three.h" />

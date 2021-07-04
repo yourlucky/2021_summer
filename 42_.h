@@ -8,7 +8,7 @@
 
 using namespace std;
 
-int main()
+int fourtytwo()
 {
     //ifstream cin; //cin의 콘솔입력을 대체-1
     //cin.open("Input_data.txt"); //cin의 콘솔입력을 대체-2

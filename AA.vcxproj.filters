@@ -18,9 +18,6 @@
     <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Source.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="9_nine.h">
       <Filter>Header Files</Filter>
     </ClCompile>
@@ -106,7 +103,7 @@
     <ClInclude Include="26_.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="27.h">
+    <ClInclude Include="27_.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="29_.h">
@@ -152,6 +149,24 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="43_.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="45_.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="46_.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="44_.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="47_.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="48_.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="49_.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
