@@ -31,7 +31,7 @@ int fourtynine()
         front[i] = data;
     }
 
-    for (int i = 0; i < size; i++)
+    for (int i = size; i >= 1; i--)
     {
         cin >> data;
         side[i] = data;
