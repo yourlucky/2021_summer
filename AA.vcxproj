@@ -188,6 +188,9 @@
     <ClInclude Include="3_Three.h" />
     <ClInclude Include="2_Two.h" />
     <ClInclude Include="51_.h" />
+    <ClInclude Include="52_.h" />
+    <ClInclude Include="53_.h" />
+    <ClInclude Include="55_.h" />
     <ClInclude Include="5_Five.h" />
     <ClInclude Include="6_extract.h" />
     <ClInclude Include="7_Seven.h" />
