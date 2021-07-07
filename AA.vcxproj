@@ -146,6 +146,8 @@
     <Text Include="Input_data.txt" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="59_bfs.h" />
+    <ClInclude Include="59_dfs.h" />
     <ClInclude Include="10_ten.h" />
     <ClInclude Include="11_eleven.h" />
     <ClInclude Include="12_.h" />
@@ -191,6 +193,9 @@
     <ClInclude Include="52_.h" />
     <ClInclude Include="53_.h" />
     <ClInclude Include="55_.h" />
+    <ClInclude Include="56_.h" />
+    <ClInclude Include="57_.h" />
+    <ClInclude Include="59_.h" />
     <ClInclude Include="5_Five.h" />
     <ClInclude Include="6_extract.h" />
     <ClInclude Include="7_Seven.h" />
