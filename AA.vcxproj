@@ -197,6 +197,8 @@
     <ClInclude Include="57_.h" />
     <ClInclude Include="59_.h" />
     <ClInclude Include="5_Five.h" />
+    <ClInclude Include="60_.h" />
+    <ClInclude Include="61_.h" />
     <ClInclude Include="6_extract.h" />
     <ClInclude Include="7_Seven.h" />
     <ClInclude Include="8_eight.h" />
