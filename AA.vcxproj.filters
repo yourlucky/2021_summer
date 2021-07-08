@@ -202,5 +202,17 @@
     <ClInclude Include="61_.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="62_.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="63_.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="64_.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="65_.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
