@@ -5,15 +5,15 @@
 #include<string>
 #include<algorithm>
 #include<vector>
-#include<stack>
+#include<queue>
 
 
 using namespace std;
 
 
-int fiftynine_one()
+int fiftynine_two()
 {
-    stack<int> yoon;//stack
+    queue<int> q;//stack
     vector<int> a[8];//기초 자료
     int visited[8] = { 0 };//방문 여부
 
@@ -31,20 +31,20 @@ int fiftynine_one()
 
 
 
-    yoon.push(1);
+    q.push(1);
 
 
-    while (!yoon.empty())
+    while (!q.empty())
     {
-        int x = yoon.top();
-        yoon.pop();
+        int x = q.front();
+        q.pop();
         cout << x << endl;
 
-        for (int i = a[x].size() - 1; i >= 0; i--)
+        for (int i = 0; i < a[x].size(); i++)
         {
             if (!visited[a[x][i]])
             {
-                yoon.push(a[x][i]);
+                q.push(a[x][i]);
             }
         }
     }
@@ -52,5 +52,3 @@ int fiftynine_one()
 
     return 0;
 }
-
-

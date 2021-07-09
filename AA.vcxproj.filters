@@ -187,10 +187,10 @@
     <ClInclude Include="57_.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="59_bfs.h">
+    <ClInclude Include="59_dfs.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="59_dfs.h">
+    <ClInclude Include="59_bfs.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="59_.h">
@@ -212,6 +212,24 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="65_.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="66_.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="67_.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="68_.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="69_.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="70_.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="71_.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

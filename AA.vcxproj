@@ -146,8 +146,8 @@
     <Text Include="Input_data.txt" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="59_bfs.h" />
     <ClInclude Include="59_dfs.h" />
+    <ClInclude Include="59_bfs.h" />
     <ClInclude Include="10_ten.h" />
     <ClInclude Include="11_eleven.h" />
     <ClInclude Include="12_.h" />
@@ -203,11 +203,17 @@
     <ClInclude Include="63_.h" />
     <ClInclude Include="64_.h" />
     <ClInclude Include="65_.h" />
+    <ClInclude Include="66_.h" />
+    <ClInclude Include="67_.h" />
+    <ClInclude Include="68_.h" />
+    <ClInclude Include="69_.h" />
     <ClInclude Include="6_extract.h" />
+    <ClInclude Include="70_.h" />
     <ClInclude Include="7_Seven.h" />
     <ClInclude Include="8_eight.h" />
     <ClInclude Include="15_.h" />
     <ClInclude Include="42_.h" />
+    <ClInclude Include="71_.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
