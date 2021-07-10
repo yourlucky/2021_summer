@@ -235,5 +235,11 @@
     <ClInclude Include="72_.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="73_.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="74_.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
