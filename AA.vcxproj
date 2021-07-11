@@ -212,6 +212,11 @@
     <ClInclude Include="72_.h" />
     <ClInclude Include="73_.h" />
     <ClInclude Include="74_.h" />
+    <ClInclude Include="75_.h" />
+    <ClInclude Include="76_.h" />
+    <ClInclude Include="77_.h" />
+    <ClInclude Include="78_.h" />
+    <ClInclude Include="79_.h" />
     <ClInclude Include="7_Seven.h" />
     <ClInclude Include="8_eight.h" />
     <ClInclude Include="15_.h" />

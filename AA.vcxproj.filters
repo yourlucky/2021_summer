@@ -241,5 +241,20 @@
     <ClInclude Include="74_.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="75_.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="76_.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="77_.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="78_.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="79_.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
