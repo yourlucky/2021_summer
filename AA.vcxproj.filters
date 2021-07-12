@@ -256,5 +256,14 @@
     <ClInclude Include="79_.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="80_dijkstra.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="82_.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="83_.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

@@ -218,6 +218,9 @@
     <ClInclude Include="78_.h" />
     <ClInclude Include="79_.h" />
     <ClInclude Include="7_Seven.h" />
+    <ClInclude Include="80_dijkstra.h" />
+    <ClInclude Include="82_.h" />
+    <ClInclude Include="83_.h" />
     <ClInclude Include="8_eight.h" />
     <ClInclude Include="15_.h" />
     <ClInclude Include="42_.h" />
