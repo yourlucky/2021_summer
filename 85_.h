@@ -1,4 +1,3 @@
-#pragma once
 #include<iostream>
 #include<fstream>
 #include<math.h>
@@ -45,7 +44,7 @@ int eightyfive()
 
 
 	int value = n_data[0];
-	DFS(0,value);
+	DFS(0, value);
 
 	cout << _max << endl;
 	cout << _min << endl;
@@ -57,14 +56,14 @@ int eightyfive()
 void DFS(int l, int v)
 {
 
-	if (l == number-1)
+	if (l == number - 1)
 	{
-		
-		if(v<_min)
-		  _min=v;
+
+		if (v < _min)
+			_min = v;
 		if (v > _max)
 			_max = v;
-			
+
 	}
 
 	else
@@ -72,37 +71,30 @@ void DFS(int l, int v)
 		if (s_data[0] > 0)
 		{
 			s_data[0]--;
-			v = v + n_data[l + 1];
-			DFS(l + 1, v);
+			DFS(l + 1, v + n_data[l + 1]);
 			s_data[0]++;
-			v = v - n_data[l + 1];
 		}
 
 		if (s_data[1] > 0)
 		{
 			s_data[1]--;
-			v = v - n_data[l + 1];
-			DFS(l + 1, v);
+			DFS(l + 1, v - n_data[l + 1]);
 			s_data[1]++;
-			v = v + n_data[l + 1];
 		}
 
 		if (s_data[2] > 0)
 		{
 			s_data[2]--;
-			v = v * n_data[l + 1];
-			DFS(l + 1, v);
+			DFS(l + 1, v * n_data[l + 1]);
 			s_data[2]++;
-			v = v / n_data[l + 1];
 		}
 
 		if (s_data[3] > 0)
 		{
 			s_data[3]--;
-			v = v / n_data[l + 1];
-			DFS(l + 1, v);
+			DFS(l + 1, v / n_data[l + 1]);
 			s_data[3]++;
-			v = v * n_data[l + 1];
+
 		}
 	}
 

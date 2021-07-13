@@ -223,6 +223,8 @@
     <ClInclude Include="83_.h" />
     <ClInclude Include="84_.h" />
     <ClInclude Include="85_.h" />
+    <ClInclude Include="86_.h" />
+    <ClInclude Include="87_.h" />
     <ClInclude Include="8_eight.h" />
     <ClInclude Include="15_.h" />
     <ClInclude Include="42_.h" />
