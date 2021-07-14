@@ -233,6 +233,8 @@
     <ClInclude Include="71_.h" />
     <ClInclude Include="90_.h" />
     <ClInclude Include="91_.h" />
+    <ClInclude Include="93_.h" />
+    <ClInclude Include="96_.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
