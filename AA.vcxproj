@@ -226,10 +226,13 @@
     <ClInclude Include="86_.h" />
     <ClInclude Include="87_.h" />
     <ClInclude Include="88_.h" />
+    <ClInclude Include="89_.h" />
     <ClInclude Include="8_eight.h" />
     <ClInclude Include="15_.h" />
     <ClInclude Include="42_.h" />
     <ClInclude Include="71_.h" />
+    <ClInclude Include="90_.h" />
+    <ClInclude Include="91_.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

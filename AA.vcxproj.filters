@@ -280,5 +280,14 @@
     <ClInclude Include="88_.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="89_.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="90_.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="91_.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
