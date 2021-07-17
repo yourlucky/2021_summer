@@ -147,6 +147,10 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="100_.h" />
+    <ClInclude Include="101_.h" />
+    <ClInclude Include="102_.h" />
+    <ClInclude Include="103_.h" />
+    <ClInclude Include="104_.h" />
     <ClInclude Include="59_dfs.h" />
     <ClInclude Include="59_bfs.h" />
     <ClInclude Include="10_ten.h" />
