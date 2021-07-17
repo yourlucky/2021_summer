@@ -1,201 +1,154 @@
 #pragma once
-#include<iostream>
-#include<fstream>
-#include<math.h>
-#include<string>
-#include<algorithm>
-#include<vector>
-#include<queue>
+#include<bits/stdc++.h>
 
 using namespace std;
 
 
-struct BF {
+
+struct My {
 	int x;
 	int y;
-	int value;
-	BF(int xx, int yy, int vv)
+	int d;
+	My(int _x, int _y, int _d)
 	{
-		x = xx;
-		y = yy;
-		value = vv;
+		x = _x;
+		y = _y;
+		d = _d;
 	}
 
+	bool operator < (const My& b) const
+	{
+		if (d == b.d)
+		{
+			if (x == b.x) return y > b.y;
+			else return x > b.x;
+		}
+		else
+			return d > b.d;
+
+	}
 };
+int big_answer = 0;
+int m_size;
+int _map[26][26] = { 0 };
+int visited[26][26] = { 0 };
+pair<int, int> simba_l;
+int simba_s = 2;
+priority_queue<My> sQ;
 
-queue<BF> sQ;
-vector < vector<int> > _data;
-vector < vector<int> > _map;
-pair<int, int> simbalocation;
-int simbasize = 2;
-int n;
+int dx[4] = { 1,-1,0,0 };
+int dy[4] = { 0,0,1,-1 };
+int prey = 0;
 
+void simba_eat();
 
-int _x[4] = { -1,0,0,1 };
-int _y[4] = { 0,1,-1,0 };
+void bfs(int x, int y, int d);
 
-
-BF target_location();
-void map_f();
-
-
-int main()
+int ninety()
 {
 
-	int _max = 0;
+	//ifstream cin; //cin의 콘솔입력을 대체-1
+	//cin.open("Input_data.txt"); //cin의 콘솔입력을 대체-2
 
-	ifstream cin; //cin의 콘솔입력을 대체-1
-	cin.open("Input_data.txt"); //cin의 콘솔입력을 대체-2
+	ios_base::sync_with_stdio(false);
+	cin.tie(NULL);
 
-	cin >> n;
 
-	for (int i = 0; i <= n + 1; i++)
+	cin >> m_size;
+
+	int d1;
+	for (int i = 1; i <= m_size; i++)
 	{
-		vector <int> v1;
-		vector <int> v2;
-		for (int j = 0; j <= n + 1; j++)
+		for (int j = 1; j <= m_size; j++)
 		{
-			v1.push_back(-1);
-			v2.push_back(-1);
-		}
-		_data.push_back(v1);
-		_map.push_back(v2);
-	}
-
-
-	int n1;
-	for (int i = 1; i <= n; i++)
-	{
-		for (int j = 1; j <= n; j++)
-		{
-			cin >> n1;
-			_data[i][j] = n1;
+			cin >> d1;
+			_map[i][j] = d1;
 		}
 	}
 
-	simbalocation = make_pair(0, 0);
 
-	for (int i = 1; i <= n; i++)
+	for (int i = 1; i <= m_size; i++)
 	{
-		for (int j = 1; j <= n; j++)
+		for (int j = 1; j <= m_size; j++)
 		{
-			if (_data[i][j] == 9)
+			if (_map[i][j] == 9)
 			{
-				simbalocation = make_pair(i, j);
-				_data[i][j] = 0;
+				simba_l.first = i;
+				simba_l.second = j;
+				_map[i][j] = 0;
+
 			}
 		}
 	}
 
+	sQ.push(My(simba_l.first, simba_l.second, 0));
+	bfs(simba_l.first, simba_l.second, 0);
 
-
-	int time = 0;
-	while (1)
-	{
-		map_f();
-
-		BF tempe = target_location();
-
-		if (tempe.value == -999)
-			break;
-		else
-		{
-			time += tempe.value;
-			simbasize++;
-			simbalocation = make_pair(tempe.x, tempe.y);
-			_data[tempe.x][tempe.y] = 0;
-		}
-	}
-
-	cout << time << endl;
-
+	cout << big_answer;
 
 	return 0;
 }
 
-void map_f()
+void bfs(int x, int y, int d)
 {
-	for (int i = 1; i <= n; i++)
+	while (!sQ.empty())
 	{
-		for (int j = 1; j <= n; j++)
-		{
-			if (_data[i][j] <= simbasize)
-				_map[i][j] = 0;
-			else
-				_map[i][j] = 1;
-		}
-	}
-}
+		My temp = sQ.top();
+		int n_x = temp.x;
+		int n_y = temp.y;
+		int n_d = temp.d;
+		sQ.pop();
 
-BF target_location()
-{
-	sQ.push(BF(simbalocation.first, simbalocation.second, 0));
-	BF target_min = BF(0, 0, 2147000000);
-
-	for (int i = 1; i < n + 1; i++)
-	{
-		for (int j = 1; j < n + 1; j++)
+		if (_map[n_x][n_y] != 0 && _map[n_x][n_y] < simba_s)
 		{
-			if (_data[i][j] < simbasize && _data[i][j] > 0)
+			simba_eat();
+			big_answer += n_d;
+			_map[n_x][n_y] = 0;
+			n_d = 0;
+
+			while (!sQ.empty())
+				sQ.pop();
+
+			sQ.push(My(n_x, n_y, 0));
+
+
+			for (int i = 1; i <= m_size; i++)
 			{
-				while (!sQ.empty())
+				for (int j = 1; j <= m_size; j++)
 				{
-					BF tmp = sQ.front();
-					int x = tmp.x;
-					int y = tmp.y;
-
-					if (x == i && y == j)
-					{
-						if (tmp.value == target_min.value)
-						{
-							if (target_min.y > j)
-							{
-								target_min.x = i;
-								target_min.y = j;
-							}
-							else if (target_min.x > i)
-							{
-								target_min.x = i;
-								target_min.y = j;
-							}
-						}
-						else if (tmp.value < target_min.value)
-						{
-							target_min.x = i;
-							target_min.y = j;
-							target_min.value = tmp.value;
-						}
-
-					}
-
-					sQ.pop();
-					for (int i = 0; i < 4; i++)
-					{
-						int xx = x + _x[i];
-						int yy = y + _y[i];
-
-						if (_map[xx][yy] == 0)
-						{
-							sQ.push(BF(xx, yy, tmp.value + 1));
-							_map[xx][yy] = 1;
-						}
-					}
+					visited[i][j] = 0;
 				}
-
-
 			}
 
+
 		}
-	}
 
-	if (target_min.value != 2147000000)
-	{
-		_data[target_min.x][target_min.y] = 0;
-		return target_min;
-	}
+		for (int i = 0; i < 4; i++)
+		{
+			int n_xx = n_x + dx[i];
+			int n_yy = n_y + dy[i];
 
-	else
-		return BF(0, 0, -999);
+			if (visited[n_xx][n_yy] == 0 && n_xx > 0 && n_yy > 0 && n_xx <= m_size && n_yy <= m_size)
+			{
+				if (_map[n_xx][n_yy] <= simba_s)
+				{
+					sQ.push(My(n_xx, n_yy, n_d + 1));
+					visited[n_xx][n_yy] = 1;
+				}
+			}
+		}
+
+	}
 
 }
 
+void simba_eat()
+{
+	prey++;
+	if (prey >= simba_s)
+	{
+		simba_s++;
+		prey = 0;
+	}
+
+}
